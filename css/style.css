@@ -1,0 +1,20 @@
+.giuadong {
+    text-align: center;
+}
+
+div {
+    width: 500px;
+    background-color: yellow;
+    float: left;
+    margin: 10px 10px 0 0;
+    padding: 10px 0 0 10px;
+}
+
+a span {
+    color: darkblue;
+}
+
+a {
+    color: crimson;
+    text-decoration: none;
+}
