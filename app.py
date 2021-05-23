@@ -10,5 +10,9 @@ def index() :
 def tambiet() :
     return jsonify({"about":"longhuu"})
 
+@app.route("/xinchao")
+def xinchao() :
+    return jsonify({"xinchao":"longhuu"})
+
 if __name__ == "__main__":
     app.run(debug=True)
