@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, jsonify
 
 app = Flask(__name__)
 
@@ -8,7 +8,7 @@ def index() :
 
 @app.route("/tambiet")
 def tambiet() :
-    return "bye!"
+    return jsonify({"about":"longhuu"})
 
 if __name__ == "__main__":
     app.run(debug=True)
